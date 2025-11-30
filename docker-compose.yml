@@ -1,11 +1,11 @@
 version: '3.8'
 
 services:
-  z-image-ui:
+  showimageweb:
     # 告诉 Docker 就在当前目录(.)寻找 Dockerfile 构建
-    build: . 
+    build: .
     # 容器名字，方便查看
-    container_name: z-image-ui-container
+    container_name: showimageweb-container
     # 端口映射: 左边是宿主机(浏览器访问的)，右边是容器内(Streamlit默认的)
     ports:
       - "8501:8501"  # 监听所有接口（包括 127.0.0.1）
