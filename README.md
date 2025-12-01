@@ -65,7 +65,7 @@ showimageweb/
 ```bash
 # 克隆项目
 git clone https://github.com/kaima2022/showimageweb.git
-cd showimageweb
+cd ShowImageWeb
 
 # 使用 Docker Compose 启动
 docker compose up -d
